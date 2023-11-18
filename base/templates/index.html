@@ -5,38 +5,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio for Mr.</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
 </head>
 <body>
-    <div class = "body-container">
+
         <div class = "header">
-            HEADER
-        </div>
-        <div class = "mid">
-            <div class= "bigwindow">
-                <div class="card-container">
-                    <p>Your Boots activity</p>
-                    <div class="cards">
-                        <div class="window"><p><strong>First act</strong></p> <p>ipsum d a dolor vel orci pulvinar pretium in vitae dui. Suspendisse hendrerit, augue id iaculis consectetur, purus tortor interdum mauris, tincidunt semper elit nulla quis orci. In</p>
-                            
-                        </div>
-                        <div class="window"><p><strong>Second act</strong></p> <p>ipsum d a dolor vel orci pulvinar pretium in vitae dui. Suspendisse hendrerit, augue id iaculis consectetur, purus tortor interdum mauris, tincidunt semper elit nulla quis orci. In</p>
-                            
-                        </div>
-                        <div class="window"><p><strong>Third act</strong></p> <p>ipsum d a dolor vel orci pulvinar pretium in vitae dui. Suspendisse hendrerit, augue id iaculis consectetur, purus tortor interdum mauris, tincidunt semper elit nulla quis orci. In</p>
-                            
-                        </div>
-                        <div class="window"><p><strong>Fourth act</strong></p> <p>ipsum d a dolor vel orci pulvinar pretium in vitae dui. Suspendisse hendrerit, augue id iaculis consectetur, purus tortor interdum mauris, tincidunt semper elit nulla quis orci. In</p>
-                    </div>
-                </div> 
+            <div class = "p"><p>SOCIALS</p>
+            </div>
+            <div>
+                <div class = "github">
+                    <a href="https://github.com/heinohen"><img src="{% static 'images/git-32.png'%}" alt="" id = "gitLink"></a>
+                </div>
+                <div class = "linkedin">
+                    <a href="https://www.linkedin.com/in/henrik-heinonen-664840298"><img src="{% static 'images/LI-In-Bug.png'%}" alt="ln" id = "ln"></a>
+                </div>
             </div>
         </div>
-    </div>
-        <div class = footer>
-            <p>FOOTER</p>
-        <div class = "footer-link"><img src="{% static 'images/git-32.png'%}" alt="" id="gitLink">        </div>
 
-    </div>
+
+
+        <div class = "mid">
+            <div class= "bigwindow">
+                <div class = "content-container">
+                <p class = "hed">HELLO</p>
+                <p class = "bod">my name is</p>
+                <div class = "text-container">
+                    <div class = "me">
+                        <details>
+                            <summary>
+                            Henrik.
+                            <span class="icon">👇</span>
+                            </summary>
+                            <p>
+                                This is me
+                            </p>
+                            <div class = "secondLevel">
+                                <div class = "second">
+                                    <details>
+                                        <summary>
+                                        Wrok?
+                                        <span class="icon">👇</span>
+                                        </summary>
+                                        <p>
+                                            Currently working full time in logistics
+                                        </p>
+                                    </details>
+            
+                                </div>
+                                <div class = "second">
+                                    <details>
+                                        <summary>
+                                            School?
+                                        <span class="icon">👇</span>
+                                        </summary>
+                                        <p>
+                                            Turku University
+                                            <ul>
+                                                <li>Major:
+                                                    <li>Computer Science</li>
+                                                </li>
+                                                <li>Minors:
+                                                    <li>Statistics</li>
+                                                    <li>Mathematics</li>
+                                                    <li>Digital Language Studies</li>
+                                                </li>
+                                            </ul>
+
+                                            https://github.com/heinohen/stat_R
+
+                                            Technologies learned / used:
+                                            <ul>
+                                                <li>Java</li>
+                                                <li>OOP</li>
+                                                <li>Python</li>
+                                                <li>R</li>
+                                                <li>Git</li>
+                                                <li>Unix</li>
+                                                <li>Maven</li>
+                                                <li>R - language via Statistics minor</li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                            </ul>
+                                        </p>
+                                    </details>
+            
+                                </div>
+                                <div class = "second">
+                                    <details>
+                                        <summary>
+                                            Projects?
+                                        <span class="icon">👇</span>
+                                        </summary>
+                                        <div class = "project">Calculator
+                                            <a href="https://heinohen.github.io/calculator/"><img src="{% static 'images/git-32.png'%}" alt="" id = "gitLink"></a> 
+                                        </div>
+                                        <div class = "project">Rock paper scissors
+                                            <a href=" https://heinohen.github.io/rock-paper-scissor/"><img src="{% static 'images/git-32.png'%}" alt="" id = "gitLink"></a> 
+                                        </div>
+                                    </details>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
 </body>
 </html>
