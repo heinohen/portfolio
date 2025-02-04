@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://heinohen.github.io/portfolio",
+  "homepage": "https://heinohen.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "serve": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
