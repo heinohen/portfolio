@@ -1,0 +1,35 @@
+/* Ensure the root elements take full height of the viewport */
+html, body, #root {
+  height: 100%; /* Ensure the root elements take full height */
+  margin: 0;    /* Remove default margin */
+}
+
+body {
+  display: flex;             /* Use flexbox layout */
+  flex-direction: column;    /* Stack content vertically */
+  font-family: Arial, sans-serif;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;    /* Make sure the background covers the viewport */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* Ensure it takes at least the full height of the viewport */
+}
+
+.main-content {
+  flex-grow: 1;        /* Makes the content area expand and pushes footer to the bottom */
+  padding: 20px;       /* Optional: Adds some padding for the content */
+}
+
+footer {
+  margin-top: auto;    /* Pushes the footer to the bottom */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  /* Optional: Add shadow or some styles for better visibility */
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
