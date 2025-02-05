@@ -2,9 +2,6 @@ import React from 'react';
 
 const Education: React.FC = () => {
 
-
-
-
   return (
     <section id="education" className="section">
       <h2>Education</h2>
@@ -27,16 +24,50 @@ const Education: React.FC = () => {
           <li>✅ <strong>BSc Computer Science</strong>, University of Turku, 2022 - 2024
             <ul>
               <li>📚 <strong>Minors:</strong> Digital Language Studies (25 ECTS), Statistics (25 ECTS), Mathematics (25 ECTS)</li>
-              <li>🖥️ <strong>Key Courses:</strong> JAVA OOP, Relational Databases (SQL), Distributed Systems, Threading</li>
+              <li>🖥️ <strong>Key Courses:</strong>
+                <ul>
+                  <li>JAVA Object-Oriented Programming</li>
+                  <li>Relational Databases (SQL)</li>
+                  <li>Distributed Systems</li>
+                  <li>Threading and Parallel Programming</li>
+                  <li>Data Structures and Algorithms</li>
+                  <li>Computer Networks</li>
+                  <li>Operating Systems</li>
+                </ul>
+              </li>
             </ul>
-            - <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Link to Curriculum 📜</a>
+            - <a href="https://opas.peppi.utu.fi/en/programme/87711?period=2022-2024" target="_blank" rel="noopener noreferrer">Link to Curriculum 📜</a>
           </li>
           <li>🏫 <strong>MSc Computer Science</strong>, University of Turku, 2024 - Present
             <ul>
-              <li>🤖 <strong>Key Focus Areas:</strong> Machine Learning, NLP (Hugging Face, model training and evaluation), Software Development (architecture, requirements engineering, testing)</li>
+              <li>🤖 <strong>Key Focus Areas:</strong> Machine Learning, NLP, Software Development</li>
               <li>🔧 <strong>Software Development Tools:</strong> Agile, Scrum, Software Quality, and Testing</li>
+              <li>💡 <strong>Specialisation Module in Machine Learning:</strong>
+                <ul>
+                  <li>Data Analysis and Knowledge Discovery</li>
+                  <li>Evaluation of Machine Learning Methods</li>
+                  <li>Machine Learning and Pattern Recognition</li>
+                  <li>Introduction to Deep Learning</li>
+                </ul>
+              </li>
+              <li>🔍 <strong>Thematic Module in Tomorrow's AI:</strong>
+                <ul>
+                  <li>Computer Vision and Sensor Fusion</li>
+                  <li>Deep Generative Modeling</li>
+                  <li>Deep Learning in Human Language Technology</li>
+                  <li>Textual Data Analysis</li>
+                </ul>
+              </li>
+              <li>⚙️ <strong>Software Engineering, Thematic Module:</strong>
+                <ul>
+                  <li>Requirements Engineering</li>
+                  <li>Software Design and Architecture</li>
+                  <li>Software Testing and Quality Assurance</li>
+                  <li>Usability, User Experience, and Analytics</li>
+                </ul>
+              </li>
             </ul>
-            - <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Link to Curriculum 📜</a>
+            - <a href="https://opas.peppi.utu.fi/en/programme/99515?period=2024-2027" target="_blank" rel="noopener noreferrer">Link to Curriculum 📜</a>
           </li>
         </ul>
       </div>
