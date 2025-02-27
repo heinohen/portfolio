@@ -1,3 +1,3 @@
 # Portfolio page
 
-Show skills etc.
+* Personal homepage
