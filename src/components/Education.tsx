@@ -54,7 +54,7 @@ const Education: React.FC = () => {
           </li>
           <li><strong>MSc Computer Science</strong>, University of Turku, 2024 - Present
             <ul>
-              <li><strong>Key Focus Areas:</strong> Machine Learning, NLP, Software Development</li>
+              <li><strong>Key Focus Areas:</strong> Data Analysis, Machine Learning, NLP, Software Development</li>
               <li>
                 <strong>Key programming languages and environments:</strong>
                 <ul>
@@ -69,7 +69,7 @@ const Education: React.FC = () => {
                   </li>
                 </ul>
               </li>
-              <li><strong>Specialisation Module: Machine Learning:</strong>
+              <li><strong>Specialization Module: Machine Learning:</strong>
                 <ul>
                   <li>Data Analysis and Knowledge Discovery</li>
                   <li>Evaluation of Machine Learning Methods</li>
@@ -91,7 +91,7 @@ const Education: React.FC = () => {
                   <li>Software Design and Architecture</li>
                   <li>Software Testing and Quality Assurance</li>
                   <li>Privacy and security for software systems</li>
-                  <li>Programming paradigms in practince</li>
+                  <li>Programming paradigms in practice</li>
                 </ul>
               </li>
             </ul>

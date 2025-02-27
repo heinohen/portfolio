@@ -10,7 +10,7 @@ const projectsData = [
     {
         title: "Customer project (ongoing)",
         description: "Capstone project for a logistics company to more accurately calculate freight costs. Project is ongoing, started January 2025. I act as a vice project leader for the project. No links available to public as it is for a customer.",
-        technologies: ["React", "Node.js", "Flask", "Jupyter-notebook"],
+        technologies: ["React", "Node.js", "Flask", "Jupyter-notebook", "Python"],
         githubLinks: ["https://github.com/heinohen/"],
     },
     {
